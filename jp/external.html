@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>外部送信について · ゲーム</title>
+<meta name="robots" content="index,follow">
+<style>
+:root{--bg:#fbfaf7;--fg:#22201c;--dim:#6b6558;--line:#e2ded3;--card:#fff;--accent:#8a5a2b;--mark:#fff3c4;--markfg:#6b4e00}
+@media(prefers-color-scheme:dark){:root{--bg:#171613;--fg:#e8e4da;--dim:#9b9486;--line:#302d27;--card:#1e1d19;--accent:#d8a86a;--mark:#443a1c;--markfg:#f0d79a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;word-break:keep-all}
+.wrap{max-width:46rem;margin:0 auto;padding:0 20px 96px}
+header.top{border-bottom:1px solid var(--line);margin-bottom:32px}
+header.top .wrap{padding-top:20px;padding-bottom:16px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline}
+header.top a{color:var(--dim);text-decoration:none;font-size:14px}
+header.top a:hover{color:var(--accent)}
+header.top a.home{color:var(--fg);font-weight:700;font-size:15px;margin-right:auto}
+h1{font-size:28px;line-height:1.35;margin:8px 0 4px}
+h2{font-size:20px;margin:44px 0 12px;padding-top:12px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:28px 0 8px}
+p{margin:10px 0}
+p.num{margin:4px 0 4px 14px;color:var(--fg)}
+ul{margin:10px 0;padding-left:20px}
+li{margin:4px 0}
+a{color:var(--accent)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:1px 4px}
+mark.todo{background:var(--mark);color:var(--markfg);border-radius:3px;padding:0 3px}
+aside.note{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:6px;padding:12px 14px;margin:16px 0;color:var(--dim);font-size:14px;line-height:1.7}
+.scroll{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--card);font-weight:700;white-space:nowrap}
+hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+.meta{color:var(--dim);font-size:14px;margin:0 0 24px}
+.draft{background:var(--mark);color:var(--markfg);border-radius:6px;padding:10px 14px;font-size:14px;margin:0 0 28px}
+.cards{list-style:none;padding:0;margin:24px 0}
+.cards li{margin:0 0 12px}
+.cards a{display:block;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 18px;text-decoration:none;color:var(--fg)}
+.cards a:hover{border-color:var(--accent)}
+.cards b{display:block;font-size:17px;margin-bottom:2px}
+.cards span{color:var(--dim);font-size:14px}
+footer{color:var(--dim);font-size:13px;border-top:1px solid var(--line);padding-top:16px;margin-top:56px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="home" href="./">ゲーム ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a><a href="external.html" style="color:var(--accent);font-weight:700">外部送信について</a><a href="tokushoho.html">特定商取引法に基づく表記</a><a href="payment.html">資金決済法に基づく表示</a><a href="probability.html">提供割合</a><a href="delete-account.html">アカウント削除のご依頼</a></div></header>
+<main class="wrap">
+<p class="draft">施行前の草案です。</p>
+<h1><mark class="todo">[ゲーム名]</mark> 外部送信に関する公表事項</h1>
+<p>施行日：<mark class="todo">[施行日]</mark></p>
+<p><mark class="todo">[運営者名]</mark>（以下「当社」といいます。）は、「<mark class="todo">[ゲーム名]</mark>」（以下「本サービス」といいます。）において、ユーザーの端末から次の外部の事業者に情報を送信させています。電気通信事業法第27条の12に基づき、送信される情報の内容、送信先及び利用目的を公表します。個人情報の取扱いについては https://typebi.github.io/idle-rpg-legal/jp/privacy.html もご覧ください。</p>
+<h2>1. 送信先の一覧</h2>
+<h3>Firebase Analytics（Google アナリティクス for Firebase）</h3>
+<div class="scroll"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>送信先</td><td>Google LLC</td></tr><tr><td>送信される情報</td><td>インストールID、アプリインスタンスID、広告ID、端末情報（機種、OSのバージョン、言語、タイムゾーン）、アプリのバージョン、ゲーム内の操作イベントの一部（起動、チュートリアル進行、広告表示の機会等）、IPアドレス</td></tr><tr><td>利用目的</td><td>当社による本サービスの利用状況の統計分析及び改善</td></tr><tr><td>送信先のプライバシーポリシー</td><td><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a> / <a href="https://policies.google.com/technologies/partner-sites">Google によるデータの使用</a></td></tr><tr><td>オプトアウト</td><td>端末の設定で広告IDを削除又はリセットできます（下記2を参照）。</td></tr></tbody></table></div>
+<h3>Unity LevelPlay（広告メディエーション）</h3>
+<div class="scroll"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>送信先</td><td>Unity Technologies（ironSource を含むグループ会社）</td></tr><tr><td>送信される情報</td><td>広告ID、IPアドレス、端末情報（機種、OS、言語、通信状況）、アプリ情報、広告の表示・視聴・クリックの記録、報酬付き広告の視聴確認用の識別子</td></tr><tr><td>利用目的</td><td>広告の配信及び配信する広告ネットワークの選択、報酬付き広告の視聴完了の確認、広告効果の測定、不正な広告操作の防止</td></tr><tr><td>送信先のプライバシーポリシー</td><td>https://unity.com/legal/game-player-and-app-user-privacy-policy</td></tr><tr><td>オプトアウト</td><td>端末の設定でパーソナライズド広告を停止できます（下記2を参照）。</td></tr></tbody></table></div>
+<h3>Unity Ads（LevelPlay 経由で配信される広告ネットワーク）</h3>
+<div class="scroll"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>送信先</td><td>Unity Technologies</td></tr><tr><td>送信される情報</td><td>広告ID、IPアドレス、端末情報、広告の表示・視聴・クリックの記録</td></tr><tr><td>利用目的</td><td>広告の配信、広告効果の測定、ユーザーの興味に応じた広告の配信</td></tr><tr><td>送信先のプライバシーポリシー</td><td><a href="https://unity.com/legal/privacy-policy">Unity プライバシーポリシー</a></td></tr><tr><td>オプトアウト</td><td>端末の設定でパーソナライズド広告を停止できます（下記2を参照）。</td></tr></tbody></table></div>
+<h3>Google AdMob（LevelPlay 経由で配信される広告ネットワーク）</h3>
+<div class="scroll"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>送信先</td><td>Google LLC</td></tr><tr><td>送信される情報</td><td>広告ID、IPアドレス、端末情報、広告の表示・視聴・クリックの記録</td></tr><tr><td>利用目的</td><td>広告の配信、広告効果の測定、ユーザーの興味に応じた広告の配信</td></tr><tr><td>送信先のプライバシーポリシー</td><td><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a></td></tr><tr><td>オプトアウト</td><td>端末の設定のほか、<a href="https://adssettings.google.com/">Google の広告設定</a> でパーソナライズド広告を停止できます。</td></tr></tbody></table></div>
+<h3>Google Play 請求サービス（アプリ内課金）</h3>
+<div class="scroll"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>送信先</td><td>Google LLC</td></tr><tr><td>送信される情報</td><td>購入する商品のID、購入の状態、購入トークン（購入時のみ）</td></tr><tr><td>利用目的</td><td>アプリ内課金の決済処理及び購入の確認</td></tr><tr><td>送信先のプライバシーポリシー</td><td><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a></td></tr><tr><td>オプトアウト</td><td>購入を行わない場合は送信されません。</td></tr></tbody></table></div>
+<h2>2. パーソナライズド広告の停止方法（Android）</h2>
+<p>端末の「設定」→「プライバシー」（又は「Google」）→「広告」で、「広告IDを削除」又は「広告のカスタマイズをオプトアウト」を選択してください。停止しても本サービス及び報酬付き広告は利用でき、パーソナライズされていない広告が表示されます。</p>
+<h2>3. 変更</h2>
+<p>送信先又は送信される情報を変更した場合は、本ページを更新します。</p>
+<p>最終更新日：<mark class="todo">[施行日]</mark></p>
+<footer>この文書はゲーム内の設定からも確認できます。</footer>
+</main>
+</body>
+</html>
